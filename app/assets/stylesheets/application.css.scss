@@ -16,11 +16,15 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
+//Typographie Styles
 h1, h2, h3 {
   font-family: 'Ubuntu', sans-serif;
 }
 
+// Background Gradient
 .home-callout, .navbar {
   //Gradient provided by https://twitter.com/_ighosh at uiGradients
   background: #525252; /* fallback for old browsers */
@@ -28,6 +32,7 @@ h1, h2, h3 {
   background: linear-gradient(to right, #525252, #3d72b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+//Nav Styles
 .navbar {
   border: none;
 }
@@ -41,6 +46,7 @@ h1, h2, h3 {
   }
 }
 
+//Hompage Styles
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
