@@ -29,6 +29,9 @@
         <div class="nav navbar-nav navbar-right">
           <a href="/users/sign_in" class="btn btn-default navbar-btn">Log In</a> <!--klassischer HTML-code für links-->
           <a href="/users/sign_up" class="btn btn-default navbar-btn">Register</a></a> <!--klassischer HTML-code für links-->
+          
+          <%= link_to "Log In", new_user_session_path, class: "btn btn-default navbar-btn"%>
+          <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-default navbar-btn"%>
         </div>
         <ul class="nav navbar-nav navbar-right">
           <!--<li><a href="/about">About</a></li>--> <!--klassischer HTML-Link-->
